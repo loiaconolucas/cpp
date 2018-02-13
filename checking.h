@@ -2,23 +2,24 @@
 // Created by Lucas Loiacono on 2/11/18.
 //
 
-#ifndef CHECKING_ACCOUNT_WITH_CONSTRUCTORS_CHECKING_H
-#define CHECKING_ACCOUNT_WITH_CONSTRUCTORS_CHECKING_H
+#ifndef ASSIGNMENTONECHECKIGNACCOUNT_CHECKING_H
+#define ASSIGNMENTONECHECKIGNACCOUNT_CHECKING_H
 
 
-class checking {
+class Checking
+{
     int Accountnumber;
-    int Balance;
+    float Balance;
 
 public:
-    checking();
-    checking (int a, float b);
-    void writecheck (float);
-    void deposit (float);
-    void display ();
-
-
+            Checking();
+            Checking(int, float);
+            void openAccount (int, float);
+            void writecheck (float);
+            void deposit( float);
+            void display ();
 };
 
 
-#endif //CHECKING_ACCOUNT_WITH_CONSTRUCTORS_CHECKING_H
+
+#endif //ASSIGNMENTONECHECKIGNACCOUNT_CHECKING_H
