@@ -3,7 +3,9 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(cpp
+add_executable(1_3
         checking.cpp
         checking.h
-        main.cpp)
+        1_3.cpp)
+
+add_executable(2_1 2_1.cpp)
